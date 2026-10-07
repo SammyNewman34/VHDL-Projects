@@ -30,4 +30,31 @@ entity Q1_Divider is
         a, b : in std_logic_vector(7 downto 0);
         c, r : out std_logic_vector(7 downto 0)
     );
+
+    ## Algorithm
+
+The divider uses an iterative binary division algorithm based on shifting,
+comparing, and subtracting.
+
+### Flowchart
+
+![8-Bit Divider Flowchart](Images/divider_flowchart.png)
+
+### Long Division Example
+
+![Binary Long Division Example](Images/divider_long_division_example.png)
+
+### Vivado Results
+
+#### Schematic
+
+![Divider Schematic](Images/divider_schematic.png)
+
+#### Synthesis
+
+![Divider Synthesis](Images/divider_synthesis.png)
+
+#### Simulation
+
+![Divider Simulation](Images/divider_simulation.png)
 end Q1_Divider;
