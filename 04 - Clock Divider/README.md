@@ -83,6 +83,7 @@ The same principle is used for the other frequency settings.
 
 ---
 
+
 ##Frequency Divider Operation
 
 The divider uses an internal clock signal:
@@ -131,7 +132,7 @@ This allows the divider to be initialized immediately when reset is asserted.
 
 ---
 
-## Testbench
+## Tetbenchs
 
 A dedicated VHDL testbench was created to verify the clock divider.
 
@@ -174,7 +175,7 @@ The Vivado schematic shows the hardware structure generated from the behavioral 
 
 The synthesis result shows how the behavioral VHDL description is translated into digital hardware.
 
-![Clock Divider Synthesis](Images/clock_divider_sythesis.png)
+![Clock Divider Synthesis](Images/clock_divider_synthesis.png)
 
 ### Simulation
 
