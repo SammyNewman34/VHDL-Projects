@@ -80,11 +80,12 @@ Therefore:
 Foutput = 1 / 10 ms = 100 Hz
 
 The same principle is used for the other frequency settings.
+```
 
 ---
 
 
-##Frequency Divider Operation
+## Frequency Divider Operation
 
 The divider uses an internal clock signal:
 
@@ -132,7 +133,7 @@ This allows the divider to be initialized immediately when reset is asserted.
 
 ---
 
-## Tetbenchs
+## Testbench
 
 A dedicated VHDL testbench was created to verify the clock divider.
 
